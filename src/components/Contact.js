@@ -4,7 +4,7 @@ import React from 'react';
 const Contact = () => {
     return (  
         <div className="contact">
-            <a name='contact'></a>
+            <a href='' name='contact'></a>
             <h4>CONTACT ME</h4>
             <div className="flex">
             

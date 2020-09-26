@@ -24,11 +24,11 @@ function Header() {
         <ul>
           <li>
             {" "}
-            <a href="#">HOME</a>{" "}
+            <a href="#home">HOME</a>{" "}
           </li>
           <li>
             {" "}
-            <a href="#">ABOUT</a>
+            <a href="#about">ABOUT</a>
           </li>
           <li>
             {" "}
@@ -39,6 +39,7 @@ function Header() {
             <a href="#contact">CONTACT </a>
           </li>
         </ul>
+        
         <div className="burger" onClick={activeHandler}>
           <div className="line1"></div>
           <div className="line2"></div>
