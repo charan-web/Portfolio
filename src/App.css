@@ -5,7 +5,9 @@
   margin: 0;
   padding: 0;
 }
-
+.contact .contact-a{
+  display:none;
+}
 body {
   height: 100vh;
   width: 100%;

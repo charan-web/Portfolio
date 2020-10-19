@@ -5,10 +5,10 @@ import websites from "../websites";
 function Projects() {
   return (
     <div className="projects">
-      <a name="project"> </a>{" "}
-      {websites.datas.map((data) => {
+      <a href="#null" name="project"> </a>{" "}
+      {websites.datas.map((data,i) => {
         return (
-          <div className="outer-card">
+          <div className="outer-card" key={i}>
             <div className="inner-card">
               <img src={data.imageUrl} alt="play" />
             </div>{" "}
