@@ -1,6 +1,6 @@
 import React,{useEffect} from "react";
 // import react from "./skillImages/code.jpg"
-// import logo from './public/logo192.png'
+// import logo from '/../public/logo192.png'
 
 // import profile from './skillImages/profle.jpg'
 
@@ -15,7 +15,7 @@ function Details() {
   return (
     <div className="details">
       <div className="img-container">
-        <img src="/skillImages/profle.jpg" alt="d"/>
+        <img src={process.env.PUBLIC_URL+"/skillImages/profle.jpg"} alt="d"/>
         </div>
       <div className="content">
         <h1>ABOUT ME</h1>
@@ -24,7 +24,7 @@ function Details() {
           Passion.At the Beginning It was very Hard.But now It was FUN :)
         </p>
       </div>
-      <div className="reactImg">  <img src="/skillImages/code.jpg" alt="f"/> </div> 
+      <div className="reactImg">  <img src={process.env.PUBLIC_URL+"/skillImages/code.jpg"} alt="f"/> </div> 
     </div>
   );
 }

@@ -4,7 +4,7 @@
 		id: "1",
 		description: "A backold days 2048 game.Maybe Graphics bad but works fine",
 		link: "https://2048-game-by-charan.netlify.app/",
-		imageUrl: '/imaages/2048.png'
+		imageUrl:"/imaages/2048.png"
 	},
 	{
 		name: "Calculator",

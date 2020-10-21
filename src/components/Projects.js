@@ -10,14 +10,14 @@ function Projects() {
         return (
           <div className="outer-card" key={i}>
             <div className="inner-card">
-              <img src={data.imageUrl} alt="play" />
+              <img src={process.env.PUBLIC_URL+data.imageUrl} alt="play" />
             </div>{" "}
             <div className="content2">
               <h1> {data.name} </h1>
               <p> {data.description} </p>{" "}
             </div>{" "}
             <a href={data.link}>
-              <img src='/skillImages/play.png' alt="" />
+              <img src={process.env.PUBLIC_URL+'/skillImages/play.png'} alt="" />
             </a>{" "}
           </div>
         );
